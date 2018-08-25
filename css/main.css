@@ -50,6 +50,7 @@ left:0
 /*----------------- Dự Án --------------*/
 .duan {
 	min-height: 1000px;
+	margin: auto;
 }
 .title_center {
 	width: 465px;
