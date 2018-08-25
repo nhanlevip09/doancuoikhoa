@@ -1,0 +1,117 @@
+/* CSS Document */
+/* Layout for all page */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+}
+/* ---------------------- HEADER ---------------------- */
+header {
+	height: 107px;
+	background-color: #eee7e7;
+	line-height: 80px;
+}
+/* ---------------------- MENU ---------------------- */
+.navbar1 {
+	min-height: 60px;
+	background-color: #333333;
+	line-height: 60px;
+}
+.nav_ul {
+	list-style-type: none;
+}
+.nav_ul li {
+	display: inline-block;
+	position: relative;
+}
+.nav_ul li a {
+	color: #ffffff;
+	padding: 40px;
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: none;
+}
+.nav_ul li a:hover, .nav_ul .active {
+	color: #eaf902;
+}
+/* ===================== SUB MENU  ===================== */
+.sub-menu {
+	display: none;
+	position: absolute;
+	margin-top: 10px;
+	z-index: 2;
+}
+.sub-menu li {
+	display: block;
+	background-color: #191919;
+	margin-left: 0;
+	width: 270px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #2e2f31;
+}
+.sub-menu li a {
+	font-size: 14px;
+}
+.nav_ul li:hover .sub-menu {
+	display: block;
+}
+/* ===================== FOOTER ===================== */
+footer{
+	z-index: 10;
+}
+footer * {
+	color: #fff;
+}
+.footer1 {
+	min-height: 450px;
+	background-color: #2f2f2f;
+}
+.footer1 h4 {
+	color: #eedd00;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.footer1 p {
+	text-align: justify;
+}
+.btft {
+	background-color: #51880d;
+	position: absolute;
+	padding: 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	right: 16px;
+}
+.btft a {
+	color: #fff;
+	text-decoration: none;
+}
+.footer1 table tr td i {
+	color: #51880d;
+}
+.footer1 table a {
+	text-decoration: none;
+	color: #fff;
+}
+.footer1 table a:hover {
+	color: #51880d;
+}
+.border_ft {
+	height: 80px;
+	width: 400px;
+	border: 1px dotted #fff;
+}
+.border_ft p {
+	margin: 10px;
+}
+.border_ft p i {
+	color: #eedd00;
+}
+footer div iframe{
+	position: absolute;
+	right: 0;
+	top: 60px;
+}
