@@ -61,23 +61,20 @@ left:0
 	min-height: 90px;
 	position: relative;
 }
-.line_green_l {
+.line_green_l, .line_green_r{
 	width: 160px;
 	height: 1.5px;
 	border: 1px solid #559209;
 	position: absolute;
-	top: 47px;
-	left: 0px;
 	background-color: #559209;
 }
-.line_green_r {
-	width: 160px;
-	height: 1.5px;
-	border: 1px solid #559209;
-	position: absolute;
+.line_green_l {
+	left: 0;
 	top: 47px;
-	right: 0px;
-	background-color: #559209;
+}
+.line_green_r {
+	right: 0;
+	top: 47px;
 }
 .title_center>span {
 	text-align: center;
@@ -106,7 +103,7 @@ left:0
 	margin: 0;
 	padding: 0;
 }
-.duancon h5, .duancon p{
+.duancon h5, .duancon p {
 	padding: 0 10px;
 }
 .duancon h5 strong a {
@@ -170,7 +167,7 @@ left:0
 	text-align: center;
 }
 /*---------------------Tin Mới---------------*/
-.tinmoi{
+.tinmoi {
 	min-height: 600px;
 }
 .tinmoicon {
@@ -190,11 +187,11 @@ left:0
 	margin: 0;
 	padding: 0;
 }
-.tinmoicon h5, .tinmoicon p{
+.tinmoicon h5, .tinmoicon p {
 	padding: 0 10px;
 	margin-top: 20px;
 }
-.tinmoicon p{
+.tinmoicon p {
 	margin-top: 30px;
 }
 .tinmoicon h5 strong a {
@@ -208,4 +205,72 @@ left:0
 	text-align: justify;
 }
 /* ====================== Page Giới thiệu ================= */
-
+.titlegt {
+	position: relative;
+	max-width: 330px;
+}
+.titlegt>span {
+	text-align: left;
+	top: -340px;
+	line-height: 80px;
+	font-size: 25px;
+	color: #559209;
+	font-weight: 700;
+}
+.line_green {
+	bottom: 30px;
+	right: 0;
+}
+.border{
+	width: 725px;
+	height: 844px;
+	border: 2px dashed #959595;
+	margin-top: 30px;
+}
+.border *{
+	margin: 20px;
+	text-align: justify;
+}
+.border h3{
+	font-weight: 600;
+	font-size: 20px;
+}
+.border p{
+	color: #696868;
+	letter-spacing: 2px;
+	font-size: 15px;
+}
+.line_green {
+	min-width: 80px;
+	height: 1.5px;
+	border: 1px solid #559209;
+	position: absolute;
+	background-color: #559209;
+}
+#tt2{
+	margin-left: 10px;
+}
+#tt3{
+	margin-left: 10px;
+	margin-top: 0px;
+}
+#lg1{
+	right: 110px;
+}
+.lsgt{
+	list-style: none;
+	margin: 0;
+}
+.lsgt li{
+	margin: 25px 36px;
+}
+.lsgt li *{
+	color: #696868;
+	font-size: 15px;
+}
+.lsgt li:first-child{
+	margin-top: 10px;	
+}
+.lsgt li:last-child{
+	margin-bottom: 20px;
+}

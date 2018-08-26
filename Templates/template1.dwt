@@ -34,7 +34,7 @@
   <div class="container">
     <ul class="nav_ul">
       <li><a href="../index.html" class="active">Trang Chủ</a></li>
-      <li><a href="#">Giới Thiệu</a></li>
+      <li><a href="../gioithieu.html">Giới Thiệu</a></li>
       <li><a href="#">Sản Phẩm Nội Thất</a>
         <ul class="sub-menu">
           <li><a href="#"><i class="fas fa-caret-right"></i>&nbsp;&nbsp;Nội Thất Văn Phòng</a></li>
